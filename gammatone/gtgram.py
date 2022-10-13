@@ -5,7 +5,7 @@
 from __future__ import division
 import numpy as np
 
-from .filters import make_erb_filters, centre_freqs, erb_filterbank
+from filters import make_erb_filters, centre_freqs, erb_filterbank
 
 """
 This module contains functions for rendering "spectrograms" which use gammatone

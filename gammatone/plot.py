@@ -16,9 +16,9 @@ import numpy as np
 import scipy.constants
 import scipy.io.wavfile
 
-from .filters import erb_point
-import gammatone.gtgram
-import gammatone.fftweight
+from filters import erb_point
+import gtgram
+import fftweight
 
 
 class ERBFormatter(matplotlib.ticker.EngFormatter):

@@ -9,8 +9,8 @@ gammatone filterbank-like "spectrogram" from a Fourier transform.
 from __future__ import division
 import numpy as np
 
-import gammatone.filters as filters
-import gammatone.gtgram as gtgram
+import filters as filters
+import gtgram as gtgram
 
 def specgram_window(
         nfft,
