@@ -87,7 +87,8 @@ def gtgram_plot(
     aspect_ratio = duration/scipy.constants.golden
 
     gtg = gtgram_function(x, fs, window_time, hop_time, channels, f_min)
-    Z = np.flipud(20 * np.log10(gtg))
+    # print(gtg)
+    Z = np.flipud(20 * np.log10(gtg, where = gtg>0))
 
     img = axes.imshow(Z, extent=[0, duration, 1, 0], aspect=aspect_ratio)
 
