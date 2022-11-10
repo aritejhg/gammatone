@@ -13,6 +13,8 @@ code, detailed below, to Python 2 and 3 using Numpy and Scipy. It analyses signa
 running them through banks of gammatone filters, similar to Fourier-based
 spectrogram analysis.
 
+This fork was edited by Aritejh and Jaymi for our ESP3201 project. The is used along with the data preprocessing notebook to generate the gammatone spectograms for OpenMIC dataset
+
 ![Gammatone-based spectrogram of Für Elise](doc/FurElise.png)
 
 Installation
